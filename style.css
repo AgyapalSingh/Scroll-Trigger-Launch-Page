@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Prosto+One&family=Zen+Dots&display=swap");
+
+/* font-family: "Montserrat", serif; */
+/* font-family: "Zen Dots", sans-serif; */
+/* font-family: "Prosto One", sans-serif; */
+
+@media screen and (max-width: 767px) {
+  .launch-container{
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .launch-container_m{
+    display: none;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+html,
+body {
+  background-color: #b3b3b3;
+  background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+  height: 100vh;
+  background: #ADA996;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.product-title{
+  /* background-color: rgb(197, 197, 143); */
+  height: 200vh;
+  overflow: hidden;
+  /* position: relative; */
+}
+
+.product-title h1{
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Zen Dots", sans-serif;
+  font-size: 15vh;
+  transition: font-size 0.3s ease;
+  color: #111;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.product-image-benefits{
+  height: 100vh;
+  /* background-color: rgb(207, 207, 162); */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-benefits-left{
+  width: 25%;
+  text-align: right;
+}
+
+.product-benefits-right {
+  width: 25%;
+  list-style-type: none;
+}
+.benefits-product li {
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 20px;
+  font-family: "Prosto One", sans-serif;
+  margin-bottom: 10px;
+}
+.product-image{
+  width: 50%;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.product-image img{
+  width: 1px;
+  rotate: 60deg;
+
+}
+
+.benefits-product li{
+  color: #111;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.product-ingredients{
+  /* background-color: rgb(174, 174, 106); */
+  /* height: 50vh; */
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-bottom: 2vh;
+  justify-content: center;
+}
+
+.ingrdient-card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Montserrat", serif;
+}
+.ingrdient-card img {
+  width: 310px;
+  animation: moveUpDown 2s ease-in-out infinite;
+  display: block;
+  margin: 0 auto;
+}
+@keyframes moveUpDown {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+.ingredient-name {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+}
+.ingredient-info {
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: rgb(71, 71, 71);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.products-results{
+  height: 100vh;
+  /* background-color: rgb(146, 146, 87); */
+}
+
+.related-products{
+  height: 100vh;
+  /* background-color: rgb(115, 115, 58); */
+}
+
