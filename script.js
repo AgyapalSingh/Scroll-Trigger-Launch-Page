@@ -113,3 +113,11 @@ tl_product_ingredient.from(".ingrdient-card", {
     scrub: 1,
   },
 });
+
+
+
+
+gsap.to(".pre-order_left",{
+  x: 500,
+  duration: 5,
+})
