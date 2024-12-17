@@ -1,0 +1,337 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prosto+One&family=Zen+Dots&display=swap");
+/* font-family: "Montserrat", serif; */
+/* font-family: "Zen Dots", sans-serif; */
+/* font-family: "Prosto One", sans-serif; */
+/* font-family: "Poppins", sans-serif; */
+@media screen and (max-width: 767px) {
+  .launch-page-container {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .launch-page-container_m {
+    display: none;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+html,
+body {
+  height: 100vh;
+  background: #ada996;
+  background: -webkit-linear-gradient(
+    to right,
+    #eaeaea,
+    #dbdbdb,
+    #f2f2f2,
+    #ada996
+  );
+  background: linear-gradient(to right, #eaeaea, #dbdbdb, #f2f2f2, #cccbc4);
+}
+
+
+
+/* Product Title Container */
+.product-title_m {
+  height: 150vh;
+  overflow: hidden;
+}
+
+/* Product Title H1 */
+.product-title_m h1 {
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Poppins", sans-serif;
+  font-size: 8vh;
+  transition: font-size 0.3s ease;
+  color: #183457;
+}
+
+/* Product Benefit Container */
+.product-image-benefits_m {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Product Benefits List */
+.benefits-product_m li {
+  text-decoration: none;
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  color: #183457;
+  font-size: 14px;
+}
+
+/* Product Image container */
+.product-image_m {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+/* Product Image - Animated */
+.product-image_m img {
+  width: 350px;
+  rotate: 60deg;
+}
+
+/* Product Ingredient Div */
+.product-ingredients_m {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding-bottom: 2vh;
+  overflow: auto;
+  scroll-behavior: smooth;
+}
+
+/* Product ingredient card */
+.ingrdient-card_m {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Product Ingredient Image */
+.ingrdient-card_m img {
+  width: 250px;
+  animation: moveUpDown 2s ease-in-out infinite;
+  display: block;
+  margin: 0 auto;
+}
+
+@keyframes moveUpDown {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.ingredient-name_m {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  color: #183457;
+}
+
+.ingredient-info_m {
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 12px;
+  color: rgb(71, 71, 71);
+}
+
+.products-results_m {
+  height: 100vh;
+}
+
+.related-products_m {
+  height: 100vh;
+}
+
+
+/* PRE - ORDER Button */
+.pre-order_m {
+  width: 100%;
+  background-color: #183457;
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 92%;
+}
+
+.pre-order_m a {
+  text-decoration: none;
+  background-color: #183457;
+  color: white;
+  padding: 5px 30px;
+  text-transform: uppercase;
+  border-radius: 3px 3px 3px 3px;
+  font-family: "Poppins", sans-serif;
+  background-color: white;
+  color: #183457;
+  font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* DESKTOP */
+
+/* Product Title Container */
+.product-title{
+  height: 200vh;
+  overflow: hidden;
+}
+
+/* Product Title H1 */
+.product-title h1{
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Poppins", sans-serif;
+  font-size: 15vh;
+  transition: font-size 0.3s ease;
+  color: #183457;
+}
+
+/* Product Benefit Container */
+.product-image-benefits{
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-benefits-left{
+  width: 25%;
+  text-align: right;
+}
+
+.product-benefits-right {
+  width: 25%;
+  list-style-type: none;
+}
+
+/* Product Benefits List */
+.benefits-product li {
+  list-style-type: none;
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight:400;
+  font-family: "Poppins", sans-serif;
+  color: #183457;
+}
+
+/* Product Image container */
+.product-image{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Product Image - Animated */
+.product-image img{
+  width: 1px;
+  rotate: 60deg;
+}
+
+/* Product Ingredient Div */
+.product-ingredients{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-bottom: 2vh;
+  justify-content: center;
+}
+
+/* Product ingredient card */
+.ingrdient-card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Product Ingredient Image */
+.ingrdient-card img {
+  width: 310px;
+  animation: moveUpDown 2s ease-in-out infinite;
+  display: block;
+  margin: 0 auto;
+}
+
+@keyframes moveUpDown {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.ingredient-name {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  color: #183457;
+}
+
+.ingredient-info {
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: rgb(71, 71, 71);
+}
+
+.products-results{
+  height: 100vh;
+}
+
+.related-products{
+  height: 100vh;
+}
+
+/* PRE - ORDER Button */
+.pre-order{
+  width: 100%;
+  background-color: #183457;
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 92%;
+  right: 0%;
+}
+
+.pre-order a{
+  text-decoration: none;
+  background-color: #183457;
+  color: white;
+  padding: 10px 40px;
+  text-transform: uppercase;
+  border-radius: 3px 3px 3px 3px;
+  font-family: "Prosto One", sans-serif;
+  background-color: white;
+  color: #183457;
+}

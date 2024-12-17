@@ -4,7 +4,7 @@ var tl_product_ingredient = gsap.timeline();
 gsap.registerPlugin(ScrollTrigger);
 
 const title = document.getElementById("animated-title");
-const fullText = "Anti Stretch Marks Body Butter.";
+const fullText = "Anti Stretch Mark Body Butter";
 const shortText = "A.S.M.B.B.";
 
 tl_product_title.to(
@@ -56,7 +56,7 @@ tl_product_image.to(title, {
 
 tl_product_image.to(".product-image img", {
   scale: 700,
-  rotate: 360,
+  rotate: 0,
   scrollTrigger: {
     trigger: ".product-image img",
     // markers: true,
